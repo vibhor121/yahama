@@ -18,13 +18,10 @@ const options = {
     },
     servers: [
       {
-        url: 'https://localhost:8080',
+        url: 'https://yahama.onrender.com',
         description: 'Local Development Server',
       },
-      {
-        url: 'https://api.eventmanagementapp.com',
-        description: 'Production Server',
-      },
+     
     ],
   },
   apis: ['./routes/*.js'], // Adjust the path according to your project structure
